@@ -48,7 +48,8 @@ Submit a short report of issues encountered and suggestions for improving ORDS s
 Provided in /data folder:
 * sample-html/ (3 GOV.UK-style pages)
 * sample-pdf/ (3 PDFs)
-* ords-schema.ttl (ORDS ontology in Turtle format)
+
+The ORDS ontology in Turtle format can be found in [ORDSv1.0.0.ttl](../ORDSv1.0.0.ttl).
 
 ## Submission
 Fork this repo.  
@@ -59,4 +60,4 @@ Add your feedback report in /feedback.
 
 Submit a pull request.
 
-Refer to [contribute.md](../contribute.md) for further details on how to contribute
+Refer to [contribute.md](../contribute.md) for further details on how to contribute.
