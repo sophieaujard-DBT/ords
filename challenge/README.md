@@ -49,3 +49,14 @@ Provided in /data folder:
 * sample-html/ (3 GOV.UK-style pages)
 * sample-pdf/ (3 PDFs)
 * ords-schema.ttl (ORDS ontology in Turtle format)
+
+## Submission
+Fork this repo.  
+
+Complete tasks in /challenge folder.  
+
+Add your feedback report in /feedback.  
+
+Submit a pull request.
+
+Refer to [contribute.md](../contribute.md) for further details on how to contribute
