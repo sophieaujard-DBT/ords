@@ -46,8 +46,8 @@ Submit a short report of issues encountered and suggestions for improving ORDS s
 **PDFs:** Sample regulatory documents with embedded headings.  
   
 Provided in /data folder:
-* sample-html/ (3 GOV.UK-style pages)
-* sample-pdf/ (3 PDFs)
+* sample-html/ (Example HTML from GOV.UK, ICO, and HSE)
+* sample-pdf/ (Example PDFs from GOV.UK)
 
 The ORDS ontology in Turtle format can be found in [ORDSv1.0.0.ttl](../ORDSv1.0.0.ttl).
 
