@@ -1,63 +1,66 @@
 # ORDS Metadata Compliance Challenge
 ## Overview
-The Open Regulation Document Standard (ORDS) is a UK governmnent standard for regulatory metadata. It aims to make regulatory documents easier to access, reuse, and index by providing a consistent set of mandatory and optional fields.  
+Welcome to the Open Regulation Document Standard (ORDS) Challenge!
 
-ORDS metadata feeds into our Find Business Regulations (FBR) service, enabling businesses to locate and filter relevant guidance from across government.
+This challenge invites developers, data enthusiasts, and RegTech innovators to explore how metadata can transform regulatory compliance. 
 
-This challenge invites developers to test ORDS compatibility for existing guidance on GOV.UK and regulator sites. We invite participants to build tools that:
-* Extract metadata from HTML and PDF regulatory documents.
-* Validate compliance with ORDS.
-* Embed metadata using RDFa or JSON-LD.
-* Transform metadata into machine-readable formats.
-* Enable multi-language support across English and Welsh.
-* Provide feedback on usability and implementation.
+ORDS is an open standard designed to make regulatory documents easier to find, understand, and act on. By adding consistent metadata to guidance, codes of conduct, and standards, we can unlock powerful tools for businesses and regulators alike.
 
-## Objectives
-* Validate ORDS metadata requirements.
-* Explore embedding strategies for HTML and PDF.
-* Assess paracticality for regulators and developers.
-* Gather feedback to improve ORDS.
+## Why ORDS Matters
+Finding and understanding regulation constitute significant frictional costs for businesses, with some estimates suggesting administrative costs could be between 3-4% of GDP.
 
-## Tasks
-1. **Extract**  
+Challenges arise because:
+* Regulations are scattered across 90+ regulators, in different formats.
+* Finding relevant guidance is time-consuming and costly.
+* AI and digital tools struggle without structured metadata.
 
-Select a subset of regulatory documents from GOV.UK or a regulator site and extract mandatory and/or optional ORDS fields (see <Link> for the ontology).
+ORDS solves this by providing a common metadata schema for regulatory documents, enabling:
+* Better search and filtering
+* Alerts for updates
+* Decision-making tools
+* RegTech integration
+* Improved policy visibility
 
-2. **Validate**  
+## Your Challenge
+Build something innovative using ORDS metadata!
 
-Implement a validator that checks for the presence of mandatory fields, correct formats, and logical relationships. Evaluate the classification metrics using different approaches.
+We've provided:
+* A sample dataset of regulatory documents with ORDS metadata.
+* The ORDS schema (properties and descriptions).
+* Starter code for loading and parsing metadata.
 
-3. **Embed**  
+Bonus: Submit a short report of issues encountered and suggestions for improving ORDS.  
 
-Embed ORDS metadata in HTML using RDFa or JSON-LD. Provide companion metadata files for PDFs.
+## What can you build?
+Here are some ideas:
 
-4. **Transform**  
+* **Search & Filter Tool:** A web app that lets users filter documents by sector, audience, or legislation.
+* **Compliance Dashboard:** Visualise regulatory coverage by industry or region.
+* **AI Summarisation Tool:** Use metadata to improve relevance in summarising regulatory documents.
+* **Alert System:** Notify businesses when documents tagged with certain metadata change.
+* **RegTech API:** Prototype an API that exposes metadata for compliance tools.
 
-Output metadata in JSON-LD for APIs or Turtle (RDF) for linked data.
+## Evaluation Criteria
 
-Bonus: Create a searchable index of documents using extracted metadata.
-
-5. **Feedback**  
-
-Submit a short report of issues encountered and suggestions for improving ORDS scheme or guidance.  
-
-## Example Dataset
-**HTML Pages:** GOV.UK-style regulatory guidance pages.  
-**PDFs:** Sample regulatory documents with embedded headings.  
+**Relevance:** Does your solution solve a real problem for businesses or regulators?  
   
-Provided in /data folder:
-* sample-html/ (Example HTML from GOV.UK, ICO, and HSE)
-* sample-pdf/ (Example PDFs from GOV.UK)
-
-The ORDS ontology in Turtle format can be found in [ORDSv1.0.0.ttl](../ORDSv1.0.0.ttl).
+**Metadata Incorporation:** How well does it leverage ORDS?  
+  
+**Ease of Use:** Is it clear and accessible for others to use?
 
 ## Submission
-Fork this repo.  
-
-Complete tasks in /challenge folder.  
-
-Add your feedback report in /feedback.  
-
-Submit a pull request.
+1. Fork this repository.  
+2. Explore the sample dataset in /data/sample_metadata.json.  
+3. Review the ORDS schema in /docs/ords-schema.md.  
+4. Use the starter code in /starter/ to load and parse metadata.  
+5. Build your solution and submit via Pull Request with:
+    * Your code.
+    * A short write-up (README in your folder).
+    * Screenshots or a short demo video. 
 
 Refer to [contribute.md](../contribute.md) for further details on how to contribute.
+
+## Timeline
+Challenge Launch: []  
+Submission Deadline: []  
+Winners Announced: []  
